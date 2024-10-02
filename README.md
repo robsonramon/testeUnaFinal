@@ -1,6 +1,6 @@
-# Sistema de Chamada Escolar
+# Projeto
 
-Este projeto consiste em um sistema de chamada escolar, composto por um aplicativo móvel, duas APIs (API Alfa e API Beta) e uma interface web. O objetivo é registrar e acompanhar a presença dos alunos de forma eficiente e organizada.
+Este projeto consiste em um sistema composto por um aplicativo móvel, duas APIs (API Alfa e API Beta) e uma interface web.
 
 ## Contexto do Projeto
 
@@ -10,7 +10,6 @@ O aplicativo terá um formulário onde será possível registrar as seguintes in
 
 - **Nome**: Nome do aluno
 - **Idade**: Idade do aluno
-- **Data da Chamada**: Data em que a chamada foi realizada
 
 Quando o formulário for enviado, os dados serão enviados para a API Alfa.
 
@@ -20,7 +19,7 @@ A API Alfa receberá os dados do aplicativo e, em seguida, enviará uma mensagem
 
 ### 3. API Beta
 
-A API Beta ficará responsável por ouvir as mensagens do Kafka. Quando uma mensagem é recebida, a API Beta persistirá os dados de presença/falta no banco de dados. Assim, todos os registros de presença dos alunos ficarão armazenados de forma segura e acessível.
+A API Beta ficará responsável por ouvir as mensagens do Kafka. Quando uma mensagem é recebida, a API Beta persistirá os dados no banco de dados. Assim, todos os registros ficarão armazenados de forma segura e acessível.
 
 ### 4. Interface Web
 
