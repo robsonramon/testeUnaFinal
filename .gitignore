@@ -1,0 +1,27 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build output
+/dist
+/build
+/coverage
+
+# PostgreSQL data
+pgdata/
+
+# Environment variables
+.env
+
+# IDE files
+/.idea
+/.vscode
+*.sublime-workspace
+*.sublime-project
+
+# Operating system files
+.DS_Store
+Thumbs.db
